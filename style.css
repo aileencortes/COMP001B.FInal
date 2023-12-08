@@ -206,7 +206,7 @@ h2{
 /*Design Selection*/
 
 #design-selection{
-    margin: -1500px 20px 600px 35px;
+    margin: 0px 20px 0px 35px;
     color: white;
 }
 #design-selection nav {
@@ -231,7 +231,7 @@ h2{
 /*Design Archives*/
 
 #design-archives{
-    margin: -500px 20px 450px 35px;
+    margin: 0px 20px 0px 35px;
     color: white;
 }
 
@@ -256,7 +256,7 @@ h2{
 }
 
 #zen-resources{
-    margin: 0px 20px 100px 35px;
+    margin: 0px 20px 0px 35px;
     color: white;
 }
 
