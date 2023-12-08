@@ -8,11 +8,15 @@
 
 #css-zen-garden{
     background-color: rgb(246, 238, 226);
-    display: inline-block;
+    display: flex;
 }
 
 /* Header CSS */
 
+.intro{
+    width: 100%;
+    height: 20%;
+}
 
 h1{
     transform: rotate(-2deg);
@@ -40,6 +44,7 @@ h2{
 /*Zen Summary*/
 
 #zen-summary{
+    display: inline-block;
     background-color: rgba(98, 112, 77, 0.844);
     color: white;
     padding: 5px 10px 5px 20px;
@@ -84,6 +89,10 @@ h2{
 }
 
 /*Zen Supporting*/ 
+#zen-supporting{
+    width: 90%;
+    height:max-content;
+}
 
 #zen-supporting h3{
     font-family: 'Anonymous Pro', monospace;
@@ -191,16 +200,16 @@ h2{
 }
 
 .sidebar{
+    display: inline-block;
     width: 25%;
 }
 
 /*Design Selection*/
 
 #design-selection{
-    margin: -1500px 20px 30px 35px;
+    margin: -1500px 20px 600px 35px;
     color: white;
 }
-
 #design-selection nav {
     background-color: rgba(98, 112, 77, 0.844);
     border-bottom-left-radius: 10px;
