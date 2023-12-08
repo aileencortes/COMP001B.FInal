@@ -57,24 +57,30 @@ h2{
     font-family: 'Antonio', sans-serif;
     color:rgb(148, 188, 218);
 }
-/*Zen Summary*/ 
+/*Zen Preamble*/ 
 
 #zen-preamble h3{
+    transform: rotate(-2deg);
     font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
     color: white;
-    text-align: left;
+    text-align: center;
     background-color: rgb(98, 112, 77);
     margin: 50px 50px;
-    padding: 10px 0 40px 10px;
+    padding: 10px 10px 40px 10px;
     width: 280px;
 }
 #zen-preamble p{
+    transform: rotate(0);
     font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    text-align: left;
     line-height: 140%;
     color: white;
     text-align: left;
     background-color: rgb(77, 87, 62);
-    padding: 5px 10px 80px 20px;
-    width: auto;
+    padding: 10px 10px 80px 20px;
+    width: 700px;
     margin:-75px 0 0 90px;
 }
+
