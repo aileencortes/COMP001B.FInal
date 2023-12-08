@@ -190,6 +190,21 @@ h2{
     margin:-35px 0 0 425px;
 }
 
+.sidebar{
+    width: 25%;
+}
+
+/*Design Selection*/
+
+#design-selection{
+    margin: -1500px 20px 30px 35px;
+    color: white;
+}
+
+
+#design-selection a{
+   color: white;
+}
 
 /*#zen-supporting a{
     color: white;
