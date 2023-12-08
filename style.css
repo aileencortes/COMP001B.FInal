@@ -99,20 +99,10 @@ h2{
     width: 280px;
 }
 
-#zen-supporting a{
-    color: white;
-    font-style: italic;
-    text-decoration:none ;
-}
-
-#zen-supporting a:hover{
-    color:rgb(148, 188, 218);
-}
-
 /*Zen Explanation**/ 
 
 #zen-explanation p:first-of-type{
-    transform: rotate(0);
+
     font-family: 'Kanit', sans-serif;
     font-size: 15px;
     text-align: left;
@@ -127,7 +117,7 @@ h2{
 
 
 #zen-explanation p {
-    transform: rotate(0);
+   
     font-family: 'Kanit', sans-serif;
     font-size: 15px;
     text-align: left;
@@ -138,3 +128,47 @@ h2{
     width: auto;
     margin: -75px 0 0 425px;
 }
+
+/*Zen Participation**/ 
+
+#zen-participation p:first-of-type{
+ 
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    line-height: 140%;
+    text-align: left;
+    color: rgb(77, 87, 62);
+    border-left: 2px solid rgb(77, 87, 62);
+    border-right: 2px solid rgb(77, 87, 62);
+    border-top: 2px solid rgb(77, 87, 62);
+    padding: 10px 10px 15px 20px;
+    width: auto;
+    margin:-35px 0 0 425px;
+}
+#zen-participation p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    border-left: 2px solid rgb(77, 87, 62);
+    border-right: 2px solid rgb(77, 87, 62);
+    line-height: 140%;
+    text-align: left;
+    color: rgb(77, 87, 62);
+    padding: 20px 10px 20px 20px;
+    width: auto;
+    margin:-35px 0 0 425px;
+}
+#zen-participation p:last-of-type{
+    border-bottom: 2px solid rgb(77, 87, 62);
+}
+/*#zen-supporting a{
+    color: white;
+    font-style: italic;
+    text-decoration:none ;
+}
+
+#zen-supporting a:hover{
+    color:rgb(148, 188, 218);
+}
+*/
