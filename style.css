@@ -55,7 +55,6 @@ h2{
 }
 
 #zen-summary a:hover {
-    font-family: 'Antonio', sans-serif;
     color:rgb(148, 188, 218);
 }
 /*Zen Preamble*/ 
@@ -72,8 +71,7 @@ h2{
     width: 280px;
 }
 #zen-preamble p{
-   
-   transform: rotate(0deg);
+    transform: rotate(0deg);
     font-family: 'Kanit', sans-serif;
     font-size: 15px;
     text-align: left;
@@ -102,22 +100,13 @@ h2{
 /*Zen Explanation**/ 
 
 #zen-explanation p:first-of-type{
-
-    font-family: 'Kanit', sans-serif;
-    font-size: 15px;
-    text-align: left;
-    line-height: 140%;
-    text-align: left;
-    color: rgb(77, 87, 62);
     border: 2px solid rgb(77, 87, 62);
     padding: 10px 10px 90px 20px;
-    width: auto;
     margin:-35px 0 0 425px;
 }
 
 
-#zen-explanation p {
-   
+#zen-explanation p { 
     font-family: 'Kanit', sans-serif;
     font-size: 15px;
     text-align: left;
@@ -132,19 +121,8 @@ h2{
 /*Zen Participation**/ 
 
 #zen-participation p:first-of-type{
- 
-    font-family: 'Kanit', sans-serif;
-    font-size: 15px;
-    text-align: left;
-    line-height: 140%;
-    text-align: left;
-    color: rgb(77, 87, 62);
-    border-left: 2px solid rgb(77, 87, 62);
-    border-right: 2px solid rgb(77, 87, 62);
     border-top: 2px solid rgb(77, 87, 62);
     padding: 10px 10px 15px 20px;
-    width: auto;
-    margin:-35px 0 0 425px;
 }
 #zen-participation p{
     font-family: 'Kanit', sans-serif;
@@ -153,7 +131,6 @@ h2{
     border-left: 2px solid rgb(77, 87, 62);
     border-right: 2px solid rgb(77, 87, 62);
     line-height: 140%;
-    text-align: left;
     color: rgb(77, 87, 62);
     padding: 20px 10px 20px 20px;
     width: auto;
@@ -162,6 +139,8 @@ h2{
 #zen-participation p:last-of-type{
     border-bottom: 2px solid rgb(77, 87, 62);
 }
+
+
 /*#zen-supporting a{
     color: white;
     font-style: italic;
