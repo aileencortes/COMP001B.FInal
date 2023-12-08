@@ -255,6 +255,13 @@ h2{
    color: white;
 }
 
+#zen-resources{
+    color: white;
+}
+#zen-resources a {
+    color: white;
+}
+
 /*#zen-supporting a{
     color: white;
     font-style: italic;
