@@ -100,11 +100,13 @@ h2{
 /*Zen Explanation**/ 
 
 #zen-explanation p:first-of-type{
-    border: 2px solid rgb(77, 87, 62);
+    border-top: 2px solid rgb(77, 87, 62);
     padding: 10px 10px 90px 20px;
     margin:-35px 0 0 425px;
 }
-
+#zen-explanation p:last-of-type{
+    border-bottom: 2px solid rgb(77, 87, 62);
+}
 
 #zen-explanation p { 
     font-family: 'Kanit', sans-serif;
@@ -116,6 +118,8 @@ h2{
     padding: 0px 10px 15px 20px;
     width: auto;
     margin: -75px 0 0 425px;
+    border-left: 2px solid rgb(77, 87, 62);
+    border-right: 2px solid rgb(77, 87, 62);
 }
 
 /*Zen Participation**/ 
@@ -140,6 +144,8 @@ h2{
     border-bottom: 2px solid rgb(77, 87, 62);
 }
 
+/*participation & requirements*/
+
 #zen-participation a, #zen-requirements a{
     color: rgb(77, 87, 62);
     font-style: italic;
@@ -148,6 +154,7 @@ h2{
 #zen-participation a:hover, #zen-requirements a:hover{
     color:rgb(148, 188, 218);
 }
+
 /*zen-benefits*/
 
 #zen-benefits p{
@@ -155,6 +162,27 @@ h2{
     font-size: 15px;
     text-align: left;
     border: 2px solid rgb(77, 87, 62);
+    line-height: 140%;
+    color: rgb(77, 87, 62);
+    padding: 20px 10px 20px 20px;
+    width: auto;
+    margin:-35px 0 0 425px;
+}
+
+/*zen-requirements*/
+
+#zen-requirements p:first-of-type{
+    border-top: 2px solid rgb(77, 87, 62);;
+}
+#zen-requirements p:last-of-type{
+    border-bottom: 2px solid rgb(77, 87, 62);;
+}
+#zen-requirements p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    border-left: 2px solid rgb(77, 87, 62);
+    border-right: 2px solid rgb(77, 87, 62);
     line-height: 140%;
     color: rgb(77, 87, 62);
     padding: 20px 10px 20px 20px;
