@@ -51,6 +51,7 @@ h2{
 #zen-summary a {
     font-family: 'Antonio', sans-serif;
     color: white;
+    text-decoration:none ;
 }
 
 #zen-summary a:hover {
@@ -113,6 +114,8 @@ h2{
 
 #zen-supporting a{
     color: white;
+    font-style: italic;
+    text-decoration:none ;
 }
 
 #zen-supporting a:hover{
