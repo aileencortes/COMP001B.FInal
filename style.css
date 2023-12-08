@@ -261,8 +261,10 @@ display: flex;
    color: white;
 }
 
+/* Zen Resources */
+
 #zen-resources{
-    margin: 0px 20px 0px 35px;
+    margin: 0px 20px 10px 35px;
     color: white;
 }
 
@@ -286,6 +288,24 @@ display: flex;
     color: white;
 }
 
+footer{
+    margin: 3% 0 2% 50%;
+    display: flex;
+}
+.zen-validate-html, .zen-validate-css, 
+.zen-license, .zen-accessibility, 
+.zen-github {
+    margin-left:20px;
+    padding: 10px 10px;
+    background-color: rgb(98, 112, 77);
+    border-radius: 50%;
+    color: white;
+}
+
+footer a{
+    text-align: center;
+    text-decoration: none;
+}
 /*#zen-supporting a{
     color: white;
     font-style: italic;
