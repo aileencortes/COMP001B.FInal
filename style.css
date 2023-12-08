@@ -59,7 +59,9 @@ h2{
     text-decoration:none ;
 }
 
-#zen-summary a:hover {
+#zen-summary a:hover, #design-archives a:hover, 
+#design-selection a:hover, #zen-participation a:hover, 
+#zen-requirements a:hover {
     color:rgb(148, 188, 218);
 }
 /*Zen Preamble*/ 
@@ -159,9 +161,6 @@ h2{
     color: rgb(77, 87, 62);
     font-style: italic;
     text-decoration:none ;
-}
-#zen-participation a:hover, #zen-requirements a:hover{
-    color:rgb(148, 188, 218);
 }
 
 /*zen-benefits*/
