@@ -8,6 +8,7 @@
 
 #css-zen-garden{
     background-color: rgb(246, 238, 226);
+    display: inline-block;
 }
 
 /* Header CSS */
@@ -54,23 +55,24 @@ h2{
     font-family: 'Antonio', sans-serif;
     color:rgb(148, 188, 218);
 }
+/*Zen Summary*/ 
 
 #zen-preamble h3{
     font-family: 'Anonymous Pro', monospace;
     color: white;
     text-align: left;
     background-color: rgb(98, 112, 77);
-    margin: 0 50px;
+    margin: 50px 50px;
     padding: 10px 0 40px 10px;
     width: 280px;
 }
 #zen-preamble p{
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Kanit', sans-serif;
     line-height: 140%;
     color: white;
     text-align: left;
     background-color: rgb(77, 87, 62);
-    padding: 5px 10px 30px 20px;
-    width: 790px;
-    margin:-35px 0 0 90px;
+    padding: 5px 10px 80px 20px;
+    width: auto;
+    margin:-75px 0 0 90px;
 }
