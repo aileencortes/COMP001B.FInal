@@ -1,13 +1,15 @@
+
+/* Google Fonts Used*/
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
 #css-zen-garden{
     background-color: rgb(246, 238, 226);
 }
 
 /* Header CSS */
 header{
-    display: inline-block;
+   
 }
 h1{
     font-family: 'Sriracha', cursive;
@@ -27,3 +29,24 @@ h2{
     width: 300px;
     margin:-35px 0 0 90px ;
 }
+
+#zen-summary{
+    background-color: rgba(98, 112, 77, 0.844);
+    color: white;
+    padding: 5px 10px 5px 20px;
+    margin: -120px 0px 0px 500px ;
+    width: 370px;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*Zen Summary*/
+#zen-summary a {
+    font-family: 'Antonio', sans-serif;
+    color: white;
+}
+
+#zen-summary a:hover {
+    font-family: 'Antonio', sans-serif;
+    color:rgb(148, 188, 218);
+}
+
