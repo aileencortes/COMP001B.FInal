@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+#css-zen-garden{
+    background-color: rgb(246, 238, 226);
+}
+
+/* Header CSS */
+header{
+    display: inline-block;
+}
+h1{
+    font-family: 'Sriracha', cursive;
+    color: white;
+    text-align: left;
+    background-color: rgb(98, 112, 77);
+    margin: 0 50px;
+    padding: 20px 0 40px 20px;
+    width: 200px;
+}
+h2{
+    font-family: 'Sriracha', cursive;
+    color: white;
+    text-align: left;
+    background-color: rgb(77, 87, 62);
+    padding: 5px 10px 5px 20px;
+    width: 300px;
+    margin:-35px 0 0 90px ;
+}
