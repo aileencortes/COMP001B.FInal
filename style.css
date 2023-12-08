@@ -15,6 +15,7 @@
 
 
 h1{
+    transform: rotate(-2deg);
     font-family: 'Sriracha', cursive;
     font-size: 40px;
     color: white;
@@ -25,6 +26,7 @@ h1{
     width: 350px;
 }
 h2{
+    transform: rotate(-1.5deg);
     font-family: 'Sriracha', cursive;
     font-size: 40px;
     color: white;
