@@ -140,6 +140,28 @@ h2{
     border-bottom: 2px solid rgb(77, 87, 62);
 }
 
+#zen-participation a, #zen-requirements a{
+    color: rgb(77, 87, 62);
+    font-style: italic;
+    text-decoration:none ;
+}
+#zen-participation a:hover, #zen-requirements a:hover{
+    color:rgb(148, 188, 218);
+}
+/*zen-benefits*/
+
+#zen-benefits p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    border: 2px solid rgb(77, 87, 62);
+    line-height: 140%;
+    color: rgb(77, 87, 62);
+    padding: 20px 10px 20px 20px;
+    width: auto;
+    margin:-35px 0 0 425px;
+}
+
 
 /*#zen-supporting a{
     color: white;
