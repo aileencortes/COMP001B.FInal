@@ -4,7 +4,6 @@
 
 body{
     background-color:rgb(10, 9, 9);
- /*   overflow: hidden; */
 }
 
 /* This will be the main moving text*/
@@ -12,6 +11,7 @@ body{
 .intro, #main-supporting, 
 .participation, .benefits, 
 .requirements{
+   /* overflow: hidden; */
     display: inline-block;
     height: 100%;
     width: 50%;
@@ -19,11 +19,11 @@ body{
     color: gold;
     font-size: 50px;
     text-align: justify;
-   /* position: relative; */
-     /* with the postion set as realtive the 
+    /* position: relative; */
+     /* with the position set as relative the 
      animation will start */
      
-    animation: scroll 60s linear forwards
+    animation: scroll 70s linear infinite;
 }
 
 h1,h2,h3{
