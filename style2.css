@@ -1,0 +1,8 @@
+body{
+    background-color:rgb(10, 9, 9);
+    overflow: hidden; 
+}
+
+.intro, #zen-supporting{
+    display: flex;
+}
