@@ -3,6 +3,13 @@ body{
     overflow: hidden; 
 }
 
+/* This will be the main moving text*/
+
 .intro, #zen-supporting{
     display: flex;
+    height: 50%;
+    width: 60%;
+    margin:0 auto;
+    color: white;
 }
+
