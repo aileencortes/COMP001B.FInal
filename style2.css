@@ -9,32 +9,29 @@ body{
 
 /* This will be the main moving text*/
 
-.intro, #main-supporting, 
+
+.intro, .explanation, 
 .participation, .benefits, 
 .requirements{
     overflow: hidden; 
-    display: inline-block;
     height: 100%;
     width: 50%;
-    margin:0 0 0 25%;
+    margin-left: 25%;
     color: gold;
-    font-size: 50px;
     text-align: justify;
     position: relative; 
      /* with the position set as relative the 
      animation will start */
-    animation: scroll 70s linear infinite;
-    perspective: 450px;
-     transform: translateZ(-2500px) rotateX(20deg); 
+    animation: scroll 60s linear infinite;
 }
 
-.intro:hover, #main-supporting:hover, 
+
+/*.intro:hover,.explanation:hover, 
 .participation:hover, .benefits:hover, 
 .requirements:hover{
-
     animation-play-state: paused;
+}*/
 
-}
 
 h1,h2,h3{
     text-align: center;
@@ -43,5 +40,7 @@ h1,h2,h3{
 
 @keyframes scroll{
     from{ top: 0; }
-    to { top: -7500px}
+    to { top: -2000px}
 }
+
+f
