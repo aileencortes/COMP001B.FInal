@@ -1,6 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 body{
     background-color:rgb(10, 9, 9);
@@ -43,4 +43,33 @@ h1,h2,h3{
     to { top: -2000px}
 }
 
-f
+
+
+
+
+
+.zen-validate-html, .zen-validate-css,
+.zen-license, .zen-accessibility, .zen-github{
+    border-radius: 50%;
+    padding: 7px 7px ;
+    font-size: 20px;
+
+    color:gold;
+    text-shadow: 
+    0 0 21px #fff,
+    0 0 42px gold,
+
+    
+   
+    0 0 151px gold;
+}
+
+
+footer a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;   
+}
