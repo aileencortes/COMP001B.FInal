@@ -36,6 +36,7 @@ body{
 h1,h2,h3{
     text-align: center;
     font-family: 'Rubik Mono One', monospace;
+    color: gold;
 }
 
 @keyframes scroll{
@@ -52,18 +53,26 @@ h1,h2,h3{
 .zen-license, .zen-accessibility, .zen-github{
     border-radius: 50%;
     padding: 7px 7px ;
-    font-size: 20px;
-
+    font-size: 30px;
     color:gold;
-    text-shadow: 
-    0 0 21px #fff,
-    0 0 42px gold,
-
-    
-   
-    0 0 151px gold;
+    animation: flicker 1.5s infinite;
 }
 
+.design-selection h3, .design-archives h3, .zen-resources h3{
+    animation: flicker 1.5s infinite;
+}
+
+@keyframes flicker{
+    0%, 18%, 22%, 25%, 53%, 57%, 100%{
+        text-shadow: 
+        0 0 21px #fff,
+        0 0 42px gold,
+        0 0 151px gold;
+    }
+    20%, 24%, 55%{
+        text-shadow:none;
+    }
+}
 
 footer a{
     text-decoration: none;
