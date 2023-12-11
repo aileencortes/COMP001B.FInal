@@ -5,18 +5,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
 
 body{
-    background-image: url(image/arcade.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
+        background-image: url(image/arcade-2.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        position: fixed;
+}
+
+h1{
+    position: fixed;
+    font-family: 'Rubik Mono One', monospace;
+    text-shadow: 2px  2px #325424;
+    background-color: #f8db7c;
+    margin-top: 25%;
+    margin-left: 21%;
+    padding:10px 15px;
+    width: 5%;
+    font-size: 15px;
+    color: #6b9c4a;
+    border-radius: 5%;
 }
 
 
-.intro{
-color: gold;
-text-align: center;
-width: 100%;
+.intro p{
+    padding-left: 20%;
+    font-size: 10px;
 }
+
 
 .intro a {
 color: white;
@@ -28,21 +43,27 @@ font-family: 'Fjalla One', sans-serif;
     color: blue;
 }
 
-h1, h2{
-    text-align: center;
+ h2{
     font-family: 'Rubik Mono One', monospace;
     text-shadow: 2px  2px rgb(27, 27, 20);
-    animation: flicker 1.5s infinite;
-}
-
-.summary, .preamble{
-    border: 2px solid gold;
+    animation: flicker 2.5s infinite;
 }
 
 #zen-supporting{
-    margin-left: 25%;
-    width: 50%;
+    background-color: #49aae7;
+    border-radius: 8%;
+    top: 420px ;
+    position: fixed;
+    overflow:scroll;
+    height: 200px;
+    margin-left: 34%;
+    width: 31%;
 }
+
+.sidebar{
+    display: flex;
+}
+
 
 #zen-supporting h3{
     font-family: 'Rubik Mono One', monospace;
