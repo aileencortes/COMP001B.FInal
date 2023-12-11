@@ -17,15 +17,14 @@ body{
 h1{
     position:fixed;
     font-family: 'Rubik Mono One', monospace;
-    background-color: #41809f;
+    background-color: #dcb67a;
     top: 50px ;
     margin-top: 23%;
     margin-left: 21%;
     padding:10px 15px;
     width: 5%;
     font-size: 15px;
-    color: #6dc6f2;
-    text-shadow:  2px 2px #154f6c;
+    color:#4e6c40;
     border-radius: 5%;
 
 }
@@ -36,7 +35,7 @@ h2{
     position: fixed;
     color: #90bb4c;
     font-family: 'Rubik Mono One', monospace;
-    text-shadow: 2px  2px #526f23;
+    text-shadow: 2px  2px#557e14;
     margin-top: 10px;
     margin-left: 30%;
     width: 100%;
@@ -112,7 +111,7 @@ footer{
 
 .preamble{
     position: fixed;
-    background-color: #3f7078;
+    background-color: #dcb67a;
     border-radius: 4%;
     top: 95px;
     overflow: scroll;
@@ -124,15 +123,14 @@ footer{
 }
 
 .preamble h3{
-    color: #4ba8b6;
-    text-shadow: 2px 2px #166571;
+    color: rgb(78, 108, 64);
     text-align: center;
     font-family: 'Rubik Mono One', monospace;
     font-size: 15px;
 }
 
 .preamble p{
-    color: rgb(238, 213, 188);
+    color: rgb(123, 69, 16);
     font-family: 'Russo One', sans-serif;
     text-align: justify;
     font-size: 10px;
@@ -152,7 +150,7 @@ footer{
 
 .sidebar{
     position: fixed;
-    background-color: #2882a0;
+    background-color: rgb(40, 130, 160);
     border-radius: 4%;
     top: 110px;
     overflow: scroll;
