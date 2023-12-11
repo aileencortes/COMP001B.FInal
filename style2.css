@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 body{
         background-image: url(image/arcade-2.png);
@@ -17,7 +17,7 @@ h1{
     position: fixed;
     font-family: 'Rubik Mono One', monospace;
     text-shadow: 2px  2px #325424;
-    background-color: #f8db7c;
+    background-color: #f8e091;
     margin-top: 25%;
     margin-left: 21%;
     padding:10px 15px;
@@ -31,7 +31,8 @@ h1{
 /*So What Is This Scroll*/
 
 #zen-supporting{
-    background-color: #69bbed;
+    position: fixed;
+    background-color: #036cac;
     border-radius: 8%;
     top: 420px ;
     position: fixed;
@@ -47,9 +48,9 @@ h1{
 }
 #zen-supporting p{
     text-align: justify;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 120%;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Russo One', sans-serif;
     color: gold;
 
 }
@@ -64,23 +65,31 @@ h1{
 
 footer{
     text-align: center;
-    background: #036cac;
+    background: #69bbed;
     padding: 10px 10px;
 }
 
 /*Second header */
 
 h2{
+    position: fixed;
     text-align: center;
     color: #81a941;
     font-family: 'Rubik Mono One', monospace;
     text-shadow: 2px  2px white;
-    margin-left: 30% ;
+    margin-top: -10px;
     width: 100%;
 }
 
+/* Summary text */
 
-
+.summary{
+    position: fixed;
+    font-family: 'Russo One', sans-serif;
+    margin: 292px 0px 70px 320px;
+    color: white;
+    text-align: center;
+}
 
 .intro p{
     padding-left: 20%;
@@ -97,6 +106,8 @@ font-family: 'Fjalla One', sans-serif;
 .intro a:hover{
     color: blue;
 }
+
+
 
 .sidebar{
     display: flex;
