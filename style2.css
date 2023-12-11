@@ -30,6 +30,7 @@ h1, h2{
     text-align: center;
     font-family: 'Rubik Mono One', monospace;
     text-shadow: 2px  2px rgb(27, 27, 20);
+    animation: flicker 1.5s infinite;
 }
 
 .summary, .preamble{
@@ -71,7 +72,7 @@ h1, h2{
     text-align: center;
     color: gold;
     font-family: 'Signika Negative', sans-serif;
-    
+    animation: flicker 1.5s infinite;
 }
 
 .design-selection ul , .design-archives ul, .zen-resources ul{
@@ -82,3 +83,18 @@ h1, h2{
     float: left;
     padding-left: 20%;
 }
+/* Key frames */
+
+@keyframes flicker{
+    0%, 18%, 22%, 25%, 53%, 57%, 100%{
+        text-shadow: 
+        0 0 21px #fff,
+        0 0 42px gold,
+        0 0 151px gold;
+    }
+    20%, 24%, 55%{
+        text-shadow:none;
+    }
+}
+
+
