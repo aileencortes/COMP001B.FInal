@@ -96,11 +96,11 @@ h2{
     position: fixed;
     background-color: #036cac;
     border-radius: 4%;
-    top: 100px;
+    top: 95px;
     overflow: scroll;
     width: 10%;
     margin-left: 340px;
-    height: 100px;
+    height: 97px;
     width: 12%;
     color: gold;
 }
@@ -129,12 +129,20 @@ h2{
 /*side bar */
 
 .sidebar{
-    display: flex;
+    position: fixed;
+    background-color: #036cac;
+    border-radius: 4%;
+    top: 110px;
+    overflow: scroll;
+    width: 15%;
+    margin-left: 600px;
+    height: 120px;
+    width: 15.5%;
+    color: gold;
 }
 
-.design-archives, .zen-resources{
+.design-archives, .zen-resources, .design-selection{
     float:left;
-    padding-left: 10%;
 }
 
 .design-selection h3 , .design-archives h3, .zen-resources h3{
@@ -147,10 +155,7 @@ h2{
     list-style: none;
 }
 
-.design-selection{
-    float: left;
-    padding-left: 20%;
-}
+.
 /* Key frames */
 
 
