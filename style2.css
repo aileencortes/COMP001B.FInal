@@ -13,21 +13,56 @@ body{
 }
 
 /*CSS Garden Words*/
+
 h1{
-    position: fixed;
+    position:fixed;
     font-family: 'Rubik Mono One', monospace;
-    text-shadow: 2px  2px #325424;
-    background-color: #f8e091;
-    margin-top: 25%;
+    background-color: #dcb67a;
+    top: 50px ;
+    margin-top: 23%;
     margin-left: 21%;
     padding:10px 15px;
     width: 5%;
     font-size: 15px;
-    color: #6b9c4a;
+    color:#4e6c40;
     border-radius: 5%;
+ 
 }
 
+/*Second header */
 
+h2{
+    position: fixed;
+    color: #627c38;
+    font-family: 'Rubik Mono One', monospace;
+    text-shadow: 2px  2px white;
+    margin-top: 10px;
+    margin-left: 30%;
+    width: 100%;
+    animation: flicker 2.5s infinite;
+}
+
+/* Summary text */
+
+.summary{
+    position: fixed;
+    font-size: 12px;
+    font-family: 'Russo One', sans-serif;
+    margin: 310px 0px 70px 320px;
+    color: white;
+    text-align: center;
+}
+
+.summary a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.summary a:hover{
+    color: rgb(61, 61, 255);
+    text-decoration: underline;
+}
 /*So What Is This Scroll*/
 
 #zen-supporting{
@@ -71,33 +106,12 @@ footer{
     padding: 10px 10px;
 }
 
-/*Second header */
-
-h2{
-    position: fixed;
-    text-align: center;
-    color: #81a941;
-    font-family: 'Rubik Mono One', monospace;
-    text-shadow: 2px  2px white;
-    margin-top: -10px;
-    width: 100%;
-}
-
-/* Summary text */
-
-.summary{
-    position: fixed;
-    font-family: 'Russo One', sans-serif;
-    margin: 292px 0px 70px 320px;
-    color: white;
-    text-align: center;
-}
 
 /* Intro */
 
-.intro{
+.preamble{
     position: fixed;
-    background-color: #036cac;
+    background-color: #dcb67a;
     border-radius: 4%;
     top: 95px;
     overflow: scroll;
@@ -105,27 +119,29 @@ h2{
     margin-left: 340px;
     height: 97px;
     width: 12%;
-    color: gold;
+    
 }
 
-.intro h3{
+.preamble h3{
+    color: rgb(78, 108, 64);
     text-align: center;
     font-family: 'Rubik Mono One', monospace;
     font-size: 15px;
 }
 
-.intro p{
+.preamble p{
+    color: rgb(123, 69, 16);
     font-family: 'Russo One', sans-serif;
     text-align: justify;
     font-size: 10px;
 }
 
-.intro a {
+.preamble a {
     color: white;
     text-decoration: none;
     font-family: 'Fjalla One', sans-serif; 
 }
-.intro a:hover{
+.preamble a:hover{
     text-decoration: underline;
     color: blue;
 }
@@ -134,7 +150,7 @@ h2{
 
 .sidebar{
     position: fixed;
-    background-color: #036cac;
+    background-color: rgb(40, 130, 160);
     border-radius: 4%;
     top: 110px;
     overflow: scroll;
@@ -142,27 +158,42 @@ h2{
     margin-left: 600px;
     height: 120px;
     width: 15.5%;
-    color: gold;
+    color: #f5d2a4;
 }
 
 .design-selection h3 , .design-archives h3, .zen-resources h3{
     text-align: center;
-    color: gold;
+    color: #6dc6f2;
+    text-shadow:  2px 2px #154f6c;
     font-family: 'Rubik Mono One', monospace;
 }
 
 .design-selection ul , .design-archives ul, .zen-resources ul{
     list-style: none;
     font-family: 'Russo One', sans-serif;
+    padding-right: 2px ;
 }
 
 .design-selection a , .design-archives a, .zen-resources a{
     font-family: 'Russo One', sans-serif;
     text-decoration: none;
-    color: gold;
+    color:#f5d2a4;
 }
 
 .design-selection a:hover , .design-archives a:hover, .zen-resources a:hover{
     text-decoration: underline;
     color: white;
+}
+
+
+@keyframes flicker{
+    0%, 18%, 22%, 25%, 53%, 57%, 100%{
+        text-shadow: 
+        0 0 21px #fff,
+        0 0 42px #4e6c40,
+        0 0 151px #4e6c40;
+    }
+    20%, 24%, 55%{
+        text-shadow:none;
+    }
 }
