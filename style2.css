@@ -44,6 +44,8 @@ h1{
     font-family: 'Rubik Mono One', monospace;
     color: gold;
     text-align: center;
+    text-shadow: 2px 2px black;
+    border-radius: 10%;
 }
 #zen-supporting p{
     text-align: justify;
@@ -59,6 +61,7 @@ h1{
     text-decoration: none;
 }
 #zen-supporting a:hover{
+    text-decoration: underline;
     color: white;
 }
 
@@ -123,6 +126,7 @@ h2{
     font-family: 'Fjalla One', sans-serif; 
 }
 .intro a:hover{
+    text-decoration: underline;
     color: blue;
 }
 
@@ -141,21 +145,24 @@ h2{
     color: gold;
 }
 
-.design-archives, .zen-resources, .design-selection{
-    float:left;
-}
-
 .design-selection h3 , .design-archives h3, .zen-resources h3{
     text-align: center;
     color: gold;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
 }
 
 .design-selection ul , .design-archives ul, .zen-resources ul{
     list-style: none;
+    font-family: 'Russo One', sans-serif;
 }
 
-.
-/* Key frames */
+.design-selection a , .design-archives a, .zen-resources a{
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+    color: gold;
+}
 
-
+.design-selection a:hover , .design-archives a:hover, .zen-resources a:hover{
+    text-decoration: underline;
+    color: white;
+}
