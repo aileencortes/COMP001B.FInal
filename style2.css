@@ -1,7 +1,7 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
 
 body{
@@ -12,6 +12,7 @@ body{
         position: fixed;
 }
 
+/*CSS Garden Words*/
 h1{
     position: fixed;
     font-family: 'Rubik Mono One', monospace;
@@ -25,6 +26,60 @@ h1{
     color: #6b9c4a;
     border-radius: 5%;
 }
+
+
+/*So What Is This Scroll*/
+
+#zen-supporting{
+    background-color: #69bbed;
+    border-radius: 8%;
+    top: 420px ;
+    position: fixed;
+    overflow:scroll;
+    height: 200px;
+    margin-left: 38%;
+    width: 22.5%;
+}
+#zen-supporting h3{
+    font-family: 'Rubik Mono One', monospace;
+    color: gold;
+    text-align: center;
+}
+#zen-supporting p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 120%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: gold;
+
+}
+#zen-supporting a{
+    font-family: 'Fjalla One', sans-serif; 
+    color: gold;
+    text-decoration: none;
+}
+#zen-supporting a:hover{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background: #036cac;
+    padding: 10px 10px;
+}
+
+/*Second header */
+
+h2{
+    text-align: center;
+    color: #81a941;
+    font-family: 'Rubik Mono One', monospace;
+    text-shadow: 2px  2px white;
+    margin-left: 30% ;
+    width: 100%;
+}
+
+
 
 
 .intro p{
@@ -43,47 +98,8 @@ font-family: 'Fjalla One', sans-serif;
     color: blue;
 }
 
- h2{
-    font-family: 'Rubik Mono One', monospace;
-    text-shadow: 2px  2px rgb(27, 27, 20);
-    animation: flicker 2.5s infinite;
-}
-
-#zen-supporting{
-    background-color: #49aae7;
-    border-radius: 8%;
-    top: 420px ;
-    position: fixed;
-    overflow:scroll;
-    height: 200px;
-    margin-left: 34%;
-    width: 31%;
-}
-
 .sidebar{
     display: flex;
-}
-
-
-#zen-supporting h3{
-    font-family: 'Rubik Mono One', monospace;
-    color: gold;
-    text-align: center;
-}
-#zen-supporting p{
-    font-family: 'Signika Negative', sans-serif;
-    color: gold;
-
-}
-
-#zen-supporting a{
-    font-family: 'Fjalla One', sans-serif; 
-    color: gold;
-    text-decoration: none;
-}
-
-#zen-supporting a:hover{
-    color: white;
 }
 
 .design-archives, .zen-resources{
@@ -95,7 +111,6 @@ font-family: 'Fjalla One', sans-serif;
     text-align: center;
     color: gold;
     font-family: 'Signika Negative', sans-serif;
-    animation: flicker 1.5s infinite;
 }
 
 .design-selection ul , .design-archives ul, .zen-resources ul{
@@ -107,17 +122,5 @@ font-family: 'Fjalla One', sans-serif;
     padding-left: 20%;
 }
 /* Key frames */
-
-@keyframes flicker{
-    0%, 18%, 22%, 25%, 53%, 57%, 100%{
-        text-shadow: 
-        0 0 21px #fff,
-        0 0 42px gold,
-        0 0 151px gold;
-    }
-    20%, 24%, 55%{
-        text-shadow:none;
-    }
-}
 
 
