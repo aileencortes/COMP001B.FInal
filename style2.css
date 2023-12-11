@@ -1,118 +1,75 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
-body{
-    background-color:rgb(10, 9, 9);
-    display: ;
-}
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
 
-/* start over*/
-.intro{
-    display: inline-block;
-    position: absolute;
+#css-zen-garden{
+    background-color: rgb(37, 35, 35);
     width: 100%;
+    float: left;
 }
 
-
-.explanation::after, .participation::after, 
-.benefits::after, .requirements::after{
-    content: '';
-    position: fixed;
-    top: 20%;
-    width: 60%;
-    height: 50%;
-    background: linear-gradient(180deg, rgb(0, 0, 0) -2%, rgba(20,20,20,0)100%);
-}
-/* This will be the main moving text*/
-
-
-.explanation, .participation, 
-.benefits, .requirements{
-    overflow: hidden; 
-    height: 50%; /* come back to change to 100 if failed*/
-    width: 50%;
-    margin-left: 25%;
-    color: gold;
-    text-align: justify;
-    position:relative; 
-     /* with the position set as relative the 
-     animation will start */
-    animation-delay: 5s;    
-    animation: scroll 60s linear forwards;
+.intro{
+color: gold;
+text-align: center;
+width: 100%;
 }
 
+.intro a {
+color: white;
+text-decoration: none;
+font-family: 'Fjalla One', sans-serif; 
+}
 
-/*.intro:hover,.explanation:hover, 
-.participation:hover, .benefits:hover, 
-.requirements:hover{
-    animation-play-state: paused;
-}*/
-
-
-h1,h2,h3{
+h1, h2{
     text-align: center;
     font-family: 'Rubik Mono One', monospace;
-    color: gold;
+    text-shadow: 2px  2px rgb(27, 27, 20);
 }
 
-@keyframes scroll{
-    from{ top: 0; }
-    to { top: -2000px}
-}
-
-
-.zen-validate-html, .zen-validate-css,
-.zen-license, .zen-accessibility, .zen-github{
-    border-radius: 50%;
-    padding: 7px 7px ;
-    font-size: 30px;
-    color:gold;
-    animation: flicker 1.5s infinite;
-}
-
-.design-selection h3, .design-archives h3, .zen-resources h3{
-    animation: flicker 1.5s infinite;
-}
-
-@keyframes flicker{
-    0%, 18%, 22%, 25%, 53%, 57%, 100%{
-        text-shadow: 
-        0 0 21px #fff,
-        0 0 42px gold,
-        0 0 151px gold;
-    }
-    20%, 24%, 55%{
-        text-shadow:none;
-    }
-}
-
-footer a{
-    text-decoration: none;
-}
-
-footer{
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif; 
-}
-
-.sidebar{
-    position: absolute;
-    width: 25%;
-    margin: -150% 0% 0 0%;
+.summary, .preamble{
     border: 2px solid gold;
-    box-shadow: 
-    0 0 21px #fff,
-    0 0 4px gold,
-    0 0 10px gold;
 }
 
- .sidebar a, .sidebar p{
-    font-family: 'Sora', sans-serif;
-    color:white;
+#zen-supporting{
+    margin-left: 25%;
+    width: 50%;
+}
+
+#zen-supporting h3{
+    font-family: 'Rubik Mono One', monospace;
+    color: gold;
+    text-align: center;
+}
+#zen-supporting p{
+    font-family: 'Signika Negative', sans-serif;
+    color: gold;
+
+}
+
+#zen-supporting a{
+    font-family: 'Fjalla One', sans-serif; 
+    color: gold;
     text-decoration: none;
 }
+.design-archives, .zen-resources{
+    float:left;
+    padding-left: 10%;
+}
 
-.sidebar ul{
+.design-selection h3 , .design-archives h3, .zen-resources h3{
+    text-align: center;
+    color: gold;
+    font-family: 'Signika Negative', sans-serif;
+    
+}
+
+.design-selection ul , .design-archives ul, .zen-resources ul{
     list-style: none;
+}
+
+.design-selection{
+    float: left;
+    padding-left: 20%;
 }
